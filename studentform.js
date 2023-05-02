@@ -18,6 +18,10 @@ const students ={
 }
 console.log(students);
 console.log(students.getStudentDetails());
+document.getElementById("studentForm").reset();
+
 }
+// document.getElementById("submitForm").reset{ 
+// }
 
 // read getters and setters

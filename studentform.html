@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/studentForm.css">
     <title>Document</title>
 </head>
 <body>
     <div class="body">
-        <form action="#" class="container">
+        <form action="#" class="container" id="studentForm">
             <label for="name" class="form-label">Name</label><br>
             <input type="text" id="name"><br>
             <label for="phoneNo">Phone no.</label><br>
             <input type="number" id="phoneNo"><br>
             <label for="email">Email</label><br>
             <input type="email" id="email"><br>
-            <button onclick="submitForm()" type="button"> Submit</button>
-            <button type="search">reset</button>
+            <button id="submitForm" onclick="submitForm()" type="button"> Submit</button>
         </form>
     </div>
 
